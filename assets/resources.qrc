@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="assets/icons">
+    <file>icons/app_icon.ico</file>
+  </qresource>
+
+  <qresource prefix="assets/styles">
+    <file>styles/light.qss</file>
+    <file>styles/dark.qss</file>
+  </qresource>
+</RCC>

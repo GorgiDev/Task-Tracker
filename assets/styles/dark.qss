@@ -1,0 +1,164 @@
+/* Global Styles */
+QWidget {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+QPushButton#editButton,
+QPushButton#deleteButton {
+    background-color: transparent;
+    color: #1e1e1e;
+    border: none;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+QPushButton#editButton:hover,
+QPushButton#deleteButton:hover {
+    background-color: #dddddd;
+    border-radius: 4px;
+    color: black;
+}
+
+QCheckBox {
+    spacing: 6px;
+}
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+#container {
+    background-color: #3a3a3a;      /* dark gray */
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Optional hover effect on container */
+#container:hover {
+    background-color: #505050;
+}
+
+TaskWidget[bgColor="#626262"] {
+    background-color: #626262;
+    border-radius: 6px;
+    padding: 10px;
+}
+TaskWidget[bgColor="#4b4b4b"] {
+    background-color: #4b4b4b;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+QPushButton {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #4a4a4a;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: #505050;
+}
+
+QPushButton:pressed {
+    background-color: #606060;
+}
+
+/* Floating Add Button */
+#addButton {
+    background-color: #444;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 24px;
+    padding: 10px;
+    border: none;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+#addButton:hover {
+    background-color: #555;
+}
+
+/* ComboBoxes */
+QComboBox {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    padding: 4px;
+    border-radius: 4px;
+    color: #e0e0e0;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #2e2e2e;
+    border: 1px solid #555;
+    selection-background-color: #555;
+    color: #e0e0e0;
+}
+
+/* LineEdits */
+QLineEdit {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 4px;
+    color: #e0e0e0;
+}
+
+/* Labels */
+QLabel {
+    color: #cccccc;
+}
+
+/* Task Widget Labels */
+#titleLabel {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#dueDateLabel, #priorityLabel {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+/* Scroll Area */
+QScrollArea {
+    border: none;
+}
+
+/* Checkbox */
+QCheckBox {
+    color: #e0e0e0;
+    spacing: 6px;
+}
+
+/* Menu Bar */
+QMenuBar {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 12px;
+}
+
+QMenuBar::item:selected {
+    background-color: #3b3b3b;
+}
+
+/* Menus */
+QMenu {
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+QMenu::item:selected {
+    background-color: #444;
+}
